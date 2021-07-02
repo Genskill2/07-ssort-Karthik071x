@@ -7,9 +7,8 @@ for(int i=(n+1);i<l;i++)
  if(arr[i]>mx)
  {
  mx=arr[i];
- t=i;
- temp=arr[t];
- arr[t]=arr[n];
+ temp=arr[i];
+ arr[i]=arr[n];
  arr[n]=temp;
   }
 }
